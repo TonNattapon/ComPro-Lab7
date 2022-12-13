@@ -15,20 +15,20 @@ int main(){
 		i = 0;
 		result = 0;
 		while (i < 5000){
-			if (P[i] % k == 0)
-			{
-				result = result - P[i];
-				i++;
-			}
-			else
-			{
-				result = result + P[i];
-				i++;
-			}
+		if (P[i] % k == 0)
+		{
+			result = result - P[i];
+			i++;
 		}
+		else
+		{
+			result = result + P[i];
+			i++;
+		}
+	}
 	cout << "Result = " << result;
 }else{
-	cout << "Invalid input!!!";
+	cout << "Invalid Input!!!";
 }
 	return 0;
 }
